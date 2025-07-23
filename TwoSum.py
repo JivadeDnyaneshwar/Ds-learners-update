@@ -128,7 +128,7 @@
 #     print(n2,end=" ")
 
 
-num=14
+num=20
 step=0
 while num>= 0:
     if num % 2==0:
