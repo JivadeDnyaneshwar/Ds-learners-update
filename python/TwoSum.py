@@ -128,15 +128,16 @@
 #     print(n2,end=" ")
 
 
-num=14
-step=0
-while num>= 0:
-    if num % 2==0:
-     num=num//2
-    else:
-     num=num-1
-    step+=1
-print(step)
+#num=14
+# steps=0
+# while num > 0:
+#     if num % 2==0:
+#         num = num//2
+
+#     else:
+#         num = num - 1
+#     steps +=1
+# print(steps)
 
 # num=877
 # step=0
@@ -152,3 +153,125 @@ print(step)
         
 
 
+# function
+# def addnum(a,b):
+#     c=a+b
+#     print(c)
+# addnum(2,3)
+# addnum(5,6)
+#  parameter and argument //opgisnol argument
+
+# def greet(Name,Age):
+#     print(f"Hi,I am {Name},and I am {Age} years old.")
+# greet("Dnyanu",21)
+
+# local vs global
+# Local function cha Aat
+#  global function cha baher
+# x=10
+# def func():
+#     x=5
+#     print("Local X:",x) 
+# func()
+# print("Global x:",x)   
+
+# lamda function
+# square=lambda x:x*x
+# print(square(4))
+
+
+# num=int(input("Enter the Number:"))
+# n1,n2=0,1
+# print(n1,n2,end=" ")
+# for i in range(2,num):
+#     n3=n1+n2
+#     n1=n2
+#     n2=n3
+#     print(n2,end=" ")
+
+# def nesse(num):
+#       n1, n2 = 0, 1
+#       print(n1, n2, end=" ")
+#       for i in range(2, num):
+#         n3 = n1 + n2
+#         n1 = n2
+#         n2 = n3
+#         print(n2, end=" ")
+
+# num = int(input("Enter the vluve: "))
+# nesse(num)
+
+
+# def add(num):
+#     steps = 0
+#     while num > 0:
+#         if num % 2 == 0:
+#             num = num // 2
+#         else:
+#             num = num - 1
+#         steps += 1
+#     return steps
+# num = 14
+# print(add(num))
+
+# default argument
+# def defa(name="Dnaynu"):
+#     print("Hello "+name)
+# defa("Mahesh")    
+# defa()
+
+
+#  Key world argument
+# def keyw(name,age):
+#     print(name+" is "+str(age)+" years old")
+# keyw(age=21,name="Dnyanu")    
+
+
+# Required [positional] argu
+# def multi(a,b):
+#     return a*b
+# print(multi(3,2))
+
+# converting to float
+# type casting
+# int_value=100
+# string_value="1.5"
+# float_value=float(int_value)
+# print("int value as a float:",float_value)
+# print(type(float_value))
+# float_value=float(string_value)
+# print("String_value as a fload: ",float_value)
+# print(type(float_value))
+
+
+# variable argu
+# *args
+# def total(*number):
+#     sum=0
+#     for num in number:
+#         sum+=num
+#     print("Sum:",sum)
+# total(1,2,3,4)
+
+
+# **kwargs 
+# ** key value madhe data gheycha ahe toho use karto
+# def show_details(**names):
+#     for key,value in names.items():
+#          print(f"{key}:{value}")
+# show_details(Name="Dnyanu",Age=21,city="Loni")         
+   
+
+        
+
+# function use largest number
+
+# def max_in_list(list):
+#     return max(list)
+# print(max_in_list([2,3,4,7,1]))
+
+
+# no using function
+# num_max=[80,9,8,6]
+# num_of_max=max(num_max)
+# print("Max Number:",num_of_max)
