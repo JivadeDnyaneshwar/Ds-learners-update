@@ -275,3 +275,27 @@
 # num_max=[80,9,8,6]
 # num_of_max=max(num_max)
 # print("Max Number:",num_of_max)
+
+
+# def max_in_list(list):
+#     return max(list)
+# print(max_in_list([2,3,4,7,1]))
+
+
+    
+# def gcd(a, b):
+#     while b:
+#         a, b = b, a % b
+#     return a
+
+# # Example usage
+# num1 = int(input("Enter first number: "))
+# num2 = int(input("Enter second number: "))
+# result = gcd(num1, num2)
+# print(f"The GCD of {num1} and {num2} is {result}")
+
+
+import math
+a=12
+b=18
+print(math.gcd(a,b))
